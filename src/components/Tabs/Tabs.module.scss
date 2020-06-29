@@ -1,0 +1,12 @@
+.tabs {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  overflow-x: auto;
+  position: fixed;
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    position: static;
+  }
+}

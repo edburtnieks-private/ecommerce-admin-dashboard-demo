@@ -1,0 +1,14 @@
+.menuButton {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  padding: var(--s-none);
+  width: 3rem;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}

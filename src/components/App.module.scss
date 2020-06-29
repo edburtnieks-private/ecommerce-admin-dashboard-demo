@@ -1,0 +1,10 @@
+.header {
+  padding: 1rem 1.5rem;
+
+  @media (min-width: 1024px) {
+    background-color: var(--c-light);
+    height: 100vh;
+    min-width: 300px;
+    padding: 2rem 3rem;
+  }
+}

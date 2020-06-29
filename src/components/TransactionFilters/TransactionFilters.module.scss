@@ -1,0 +1,9 @@
+.filters {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.filter + .filter {
+  margin-left: 1rem;
+}

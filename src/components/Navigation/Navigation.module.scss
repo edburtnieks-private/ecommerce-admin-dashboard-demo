@@ -1,0 +1,38 @@
+.links {
+  list-style: none;
+  margin: var(--s-none);
+  padding: var(--s-none);
+}
+
+.linksListItem + .linksListItem {
+  @media (min-width: 1024px) {
+    margin-top: 1.5rem;
+  }
+}
+
+.link {
+  color: inherit;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  padding: 0.75rem var(--s-none);
+  text-decoration: none;
+
+  svg {
+    margin-right: 1rem;
+
+    @media (min-width: 1024px) {
+      margin-right: 0.5rem;
+      position: relative;
+      top: -0.125rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    display: inline-flex;
+    font-size: 1rem;
+    padding: var(--s-none);
+  }
+}

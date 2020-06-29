@@ -1,0 +1,35 @@
+@import '_variables';
+
+html {
+  box-sizing: border-box;
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--c-light);
+  color: var(--c-copy-dark);
+  cursor: default;
+  font-family: var(--ff-base);
+  margin: var(--s-none);
+  overflow-x: hidden;
+}
+
+button {
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#root {
+  @media (min-width: 1024px) {
+    display: flex;
+  }
+}
