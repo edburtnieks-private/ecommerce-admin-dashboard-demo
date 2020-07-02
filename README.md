@@ -1,6 +1,6 @@
 # Ecommerce admin dashboard demo
 
-Fully responsive dashboard example written with React, TypeScript using SASS and CSS Modules.
+Fully responsive dashboard example designed with Figma and developed with React, TypeScript, Easy Peasy and React Styleguidist using SASS and CSS Modules.
 
 ## About this demo and process
 
